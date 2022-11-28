@@ -1,29 +1,30 @@
+/* set the whole page to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* set background of body */
 body {
     background-color: #d9dcd6;
 }
-
+/* set properties for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* set universal h1 properties */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* change the colour of some of the item with the seo id */
 #seo {
     color: #d9dcd6;
 }
-
+/* set properties for all nav links */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,17 +32,13 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* set properties for all a elements */
 a {
     color: #ffffff;
     text-decoration: none;
     margin-left: 25px;
 }
-
-p {
-    font-size: 16px;
-}
-
+/* set properties for the hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -50,24 +47,44 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-main {
+/* set properties for all items in the main contents */
+.contents {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-aside {
+/* set properties for the main content articles */
+.contents-topic {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* set properties of all images within the main content */
+.contents-topic img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+/* set properties for all h2 elements */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* set font size for all paragragh elements */
+p {
+    font-size: 16px;
+}
+/* create an exception for online reputation management image within the main contents */
+#orm-img-right {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+/* set properties for all items in the aside element */
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -77,70 +94,30 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-section {
+/* set the properties for the aside sections */
+.benefits-topic {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+/* set properties for images within the aside sections */
+.benefits-topic img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* set properties for all h3 elements */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* set footer properties */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* change the size of the h2 element within the footer */
 footer h2 {
     font-size: 20px;
 }
