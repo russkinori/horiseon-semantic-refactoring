@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
 }
-/* set background of body */
+/* set background of the body */
 body {
     background-color: #d9dcd6;
 }
@@ -20,7 +20,7 @@ h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* change the colour of some of the item with the seo id */
+/* change the colour of the item with the seo id */
 #seo {
     color: #d9dcd6;
 }
@@ -38,7 +38,7 @@ a {
     text-decoration: none;
     margin-left: 25px;
 }
-/* set properties for the hero image */
+/* set properties for the hero background image */
 #hero {
     height: 800px;
     width: 100%;
@@ -72,11 +72,11 @@ h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* set font size for all paragragh elements */
+/* set the font size for all paragragh elements */
 p {
     font-size: 16px;
 }
-/* create an exception for online reputation management image within the main contents */
+/* create an image exception for online reputation management */
 #orm-img-right {
     max-height: 200px;
     float: right;
