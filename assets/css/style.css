@@ -15,7 +15,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-/* set universal h1 properties */
+/* set properties for all h1 elements */
 h1 {
     display: inline-block;
     font-size: 48px;
