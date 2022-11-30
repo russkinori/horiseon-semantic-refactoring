@@ -11,7 +11,9 @@
 
 To use this webpage, click on the following link: https://russkinori.github.io/refactoring-horiseon/. 
 
-A browser window will open and load the webpage. You can then navigate through the page by clicking on the **Search Engine Optimization, Online Reputation Management** and **Social Media Marketing** links within the header, at the top right of the page.  Otherwise, feel free to scroll through the webpage using either your mouse or the arrow keys on your keyboard. A visual representation of the page can be seen in the screenshot below.
+A browser window will open and load the webpage. You can then navigate through the page by clicking on the **Search Engine Optimization, Online Reputation Management** and **Social Media Marketing** links within the header, at the top right of the page.  Otherwise, feel free to scroll through the webpage using either your mouse or the arrow keys on your keyboard. A visual representation of the page can be seen in the screenshot below. 
+
+**Please note that the webpage is only optimized for desktop clients so will change appearance based on the window size**
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images, as well as a footer.](./assets/images/refactoring-horiseon_index.html.png)
 <br>
